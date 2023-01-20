@@ -62,10 +62,8 @@ const Navbar = () => {
                             <Image src={images.ether} alt="Network" width={30} height={30}/>
                         </div>        
                         <p>Network Name</p>
-                        
-                        <button onClick={()=> {}}>Address</button> 
                     </div>   
-                    
+                    <button onClick={()=> {setOpenModel(true)}}>Address</button> 
 
                     {/** If openModel is true, we must display the Model Seection */}
                     {openModel && (
